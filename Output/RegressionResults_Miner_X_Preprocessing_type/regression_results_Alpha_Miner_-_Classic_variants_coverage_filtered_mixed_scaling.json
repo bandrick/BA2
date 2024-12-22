@@ -1,0 +1,639 @@
+{
+    "df_type": "variants_coverage_filtered",
+    "scaling_info": {
+        "count_features": [
+            "Number of Events",
+            "Number of Traces",
+            "Distinct Events",
+            "Distinct Traces",
+            "Distinct Start Events",
+            "Distinct End Events",
+            "Total Self-loops"
+        ],
+        "ratio_features": [
+            "Event Density",
+            "Relative Trace Coverage",
+            "Structure",
+            "Event Diversity",
+            "Event Repeatability",
+            "Transition Consistency",
+            "Event Co-occurrence Consistency"
+        ],
+        "length_features": [
+            "ATS",
+            "Average Trace Length",
+            "Max Trace Length",
+            "Min Trace Length",
+            "Level of Detail",
+            "Average Self-loop Size"
+        ],
+        "complexity_features": [
+            "Sequential Complexity",
+            "Rare Sequence Impact",
+            "Event Class Dispersion",
+            "Trace Variability"
+        ]
+    },
+    "miner_results": {
+        "average_trace_fitness": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.14353406429290771,
+                        1.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.8015879988670349,
+                "rmse": 0.0633918046951294
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 181,
+                    "max_leaves": 8,
+                    "min_child_weight": 0.03058786848030968,
+                    "learning_rate": 1.0,
+                    "subsample": 0.8317618223306434,
+                    "colsample_bylevel": 0.8551052315974229,
+                    "colsample_bytree": 0.9745596128700941,
+                    "reg_alpha": 0.02994407585149243,
+                    "reg_lambda": 20.902601957192616
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_24": 0.6239931583404541,
+                "feature_13": 0.09443498402833939,
+                "feature_5": 0.0733296200633049,
+                "feature_9": 0.03731241449713707,
+                "feature_15": 0.02537677064538002,
+                "feature_14": 0.025156963616609573,
+                "feature_1": 0.02268701232969761,
+                "feature_4": 0.021846838295459747,
+                "feature_7": 0.018666887655854225,
+                "feature_16": 0.009195948950946331,
+                "feature_2": 0.008983380161225796,
+                "feature_6": 0.007282451260834932,
+                "feature_3": 0.0066109648905694485,
+                "feature_25": 0.004198277369141579,
+                "feature_19": 0.004090659320354462,
+                "feature_0": 0.0037220600061118603,
+                "feature_23": 0.0027185690123587847,
+                "feature_8": 0.00261887745000422,
+                "feature_21": 0.002531798090785742,
+                "feature_17": 0.0015358577948063612,
+                "feature_18": 0.001258089323528111,
+                "feature_12": 0.0011114019434899092,
+                "feature_22": 0.0007695177337154746,
+                "feature_20": 0.0005674421554431319,
+                "feature_10": 0.0,
+                "feature_11": 0.0
+            },
+            "status": "success"
+        },
+        "fscore": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.14404958486557007,
+                "rmse": 0.1951581835746765
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 11,
+                    "max_leaves": 25,
+                    "min_child_weight": 0.41741232582135696,
+                    "learning_rate": 1.0,
+                    "subsample": 1.0,
+                    "colsample_bylevel": 1.0,
+                    "colsample_bytree": 0.9202392662634222,
+                    "reg_alpha": 0.006158981660993541,
+                    "reg_lambda": 0.012592991365885108
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_6": 0.37995845079421997,
+                "feature_14": 0.15624360740184784,
+                "feature_7": 0.09259583055973053,
+                "feature_23": 0.07179173827171326,
+                "feature_16": 0.04060798138380051,
+                "feature_8": 0.04045654833316803,
+                "feature_9": 0.037801485508680344,
+                "feature_17": 0.033332135528326035,
+                "feature_2": 0.02734239399433136,
+                "feature_3": 0.025367040187120438,
+                "feature_0": 0.023741254583001137,
+                "feature_15": 0.021586677059531212,
+                "feature_13": 0.014216432347893715,
+                "feature_4": 0.00968020036816597,
+                "feature_25": 0.0075387051329016685,
+                "feature_21": 0.005684592295438051,
+                "feature_1": 0.003976282197982073,
+                "feature_19": 0.0037361527793109417,
+                "feature_5": 0.003044904675334692,
+                "feature_22": 0.0012975770514458418,
+                "feature_10": 0.0,
+                "feature_11": 0.0,
+                "feature_12": 0.0,
+                "feature_18": 0.0,
+                "feature_20": 0.0,
+                "feature_24": 0.0
+            },
+            "status": "success"
+        },
+        "generalization": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.3624214828014374,
+                        0.9959012269973755
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.8479448113372191,
+                "rmse": 0.03138605520187094
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 4,
+                    "max_features": 0.7697217034785244,
+                    "max_leaves": 85
+                },
+                "best_estimator": "extra_tree"
+            },
+            "feature_importance": {
+                "feature_13": 0.44320978159701435,
+                "feature_3": 0.10651967856467093,
+                "feature_9": 0.07359959507464651,
+                "feature_8": 0.07225252888235092,
+                "feature_15": 0.06828153475494128,
+                "feature_0": 0.04818041674443933,
+                "feature_1": 0.03075202749498543,
+                "feature_5": 0.026161141646876954,
+                "feature_20": 0.01946016249546097,
+                "feature_14": 0.0167349371721711,
+                "feature_23": 0.013569194255347606,
+                "feature_7": 0.011665955970922572,
+                "feature_6": 0.011231957287800088,
+                "feature_21": 0.010729825989975033,
+                "feature_18": 0.010554076458565837,
+                "feature_24": 0.00852281558111256,
+                "feature_17": 0.008351303465972912,
+                "feature_19": 0.005990266509253697,
+                "feature_4": 0.005092094322740004,
+                "feature_16": 0.003679486304565266,
+                "feature_2": 0.0036212111261124127,
+                "feature_25": 0.00104225054834987,
+                "feature_22": 0.0005517141637089249,
+                "feature_12": 0.00024604358801545495,
+                "feature_10": 0.0,
+                "feature_11": 0.0
+            },
+            "status": "success"
+        },
+        "log_fitness": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.12659257650375366,
+                        1.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.7923505306243896,
+                "rmse": 0.06374454498291016
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 429,
+                    "max_leaves": 4,
+                    "min_child_weight": 0.2020520712399588,
+                    "learning_rate": 0.3548883083315331,
+                    "subsample": 0.7394556959816849,
+                    "colsample_bylevel": 0.8772514546079575,
+                    "colsample_bytree": 0.9802813820817593,
+                    "reg_alpha": 0.005564928315218419,
+                    "reg_lambda": 0.20291802219294677
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_4": 0.28636741638183594,
+                "feature_24": 0.2137203812599182,
+                "feature_5": 0.16506792604923248,
+                "feature_9": 0.06159834936261177,
+                "feature_7": 0.03767119720578194,
+                "feature_1": 0.036916591227054596,
+                "feature_17": 0.03155184164643288,
+                "feature_3": 0.02619444578886032,
+                "feature_19": 0.021272949874401093,
+                "feature_8": 0.017081746831536293,
+                "feature_13": 0.01487160474061966,
+                "feature_2": 0.01302394736558199,
+                "feature_0": 0.012031815946102142,
+                "feature_20": 0.01152872759848833,
+                "feature_14": 0.00860554724931717,
+                "feature_6": 0.008519128896296024,
+                "feature_21": 0.00807096716016531,
+                "feature_15": 0.006332452408969402,
+                "feature_18": 0.005313272587954998,
+                "feature_16": 0.004626852460205555,
+                "feature_23": 0.0037222832906991243,
+                "feature_25": 0.0021997769363224506,
+                "feature_22": 0.0021013454534113407,
+                "feature_12": 0.0016095268074423075,
+                "feature_10": 0.0,
+                "feature_11": 0.0
+            },
+            "status": "success"
+        },
+        "metricsAverageWeight": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.4154815077781677,
+                        0.9989752769470215
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.5030012000325451,
+                "rmse": 0.060482251679605734
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 119,
+                    "max_leaves": 36,
+                    "min_samples_leaf": 16,
+                    "learning_rate": 0.7117883385707251,
+                    "log_max_bin": 7,
+                    "l2_regularization": 0.00584524252571948,
+                    "max_iter": 119
+                },
+                "best_estimator": "histgb"
+            },
+            "feature_importance": null,
+            "status": "success"
+        },
+        "perc_fit_traces": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        100.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.3845633268356323,
+                "rmse": 8.468297004699707
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 11,
+                    "max_leaves": 6,
+                    "min_child_weight": 0.17151717111680662,
+                    "learning_rate": 1.0,
+                    "subsample": 0.6564550492701153,
+                    "colsample_bylevel": 0.7673352521783783,
+                    "colsample_bytree": 0.449192812958679,
+                    "reg_alpha": 0.00745179283185407,
+                    "reg_lambda": 0.01406435546287416
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_7": 0.38183602690696716,
+                "feature_24": 0.2853336036205292,
+                "feature_14": 0.1192653700709343,
+                "feature_8": 0.06356388330459595,
+                "feature_2": 0.042495906352996826,
+                "feature_22": 0.035123005509376526,
+                "feature_18": 0.03007969632744789,
+                "feature_3": 0.011197860352694988,
+                "feature_16": 0.011189745739102364,
+                "feature_21": 0.010028937831521034,
+                "feature_23": 0.0034808863420039415,
+                "feature_6": 0.00321905966848135,
+                "feature_17": 0.0025318022817373276,
+                "feature_1": 0.00045350982691161335,
+                "feature_13": 0.00012311442696955055,
+                "feature_0": 7.758967694826424e-05,
+                "feature_4": 0.0,
+                "feature_5": 0.0,
+                "feature_9": 0.0,
+                "feature_10": 0.0,
+                "feature_11": 0.0,
+                "feature_12": 0.0,
+                "feature_15": 0.0,
+                "feature_19": 0.0,
+                "feature_20": 0.0,
+                "feature_25": 0.0
+            },
+            "status": "success"
+        },
+        "percentage_of_fitting_traces": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        100.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.04212850332260132,
+                "rmse": 10.56472110748291
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 87,
+                    "max_leaves": 36,
+                    "min_child_weight": 9.137069759306756,
+                    "learning_rate": 0.3255971455911314,
+                    "subsample": 1.0,
+                    "colsample_bylevel": 1.0,
+                    "colsample_bytree": 1.0,
+                    "reg_alpha": 0.6053749796202108,
+                    "reg_lambda": 130.29780044713704
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_24": 0.8232016563415527,
+                "feature_7": 0.07467186450958252,
+                "feature_2": 0.050829898566007614,
+                "feature_9": 0.014968516305088997,
+                "feature_1": 0.007513141725212336,
+                "feature_0": 0.006192642264068127,
+                "feature_3": 0.004685398191213608,
+                "feature_21": 0.004596557933837175,
+                "feature_19": 0.0025585254188627005,
+                "feature_8": 0.0019564952235668898,
+                "feature_17": 0.0019105328246951103,
+                "feature_23": 0.0017169980565086007,
+                "feature_13": 0.001138031017035246,
+                "feature_15": 0.001005407772026956,
+                "feature_6": 0.000898739614058286,
+                "feature_16": 0.0006547938100993633,
+                "feature_4": 0.0005591762019321322,
+                "feature_5": 0.0004356909776106477,
+                "feature_14": 0.00033485505264252424,
+                "feature_25": 0.00017113389912992716,
+                "feature_10": 0.0,
+                "feature_11": 0.0,
+                "feature_12": 0.0,
+                "feature_18": 0.0,
+                "feature_20": 0.0,
+                "feature_22": 0.0
+            },
+            "status": "success"
+        },
+        "precision": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        1.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.6492357757051135,
+                "rmse": 0.17347956132136713
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 294,
+                    "max_leaves": 7,
+                    "min_samples_leaf": 14,
+                    "learning_rate": 0.1208465384909685,
+                    "log_max_bin": 8,
+                    "l2_regularization": 0.45180487523668017,
+                    "max_iter": 294
+                },
+                "best_estimator": "histgb"
+            },
+            "feature_importance": null,
+            "status": "success"
+        },
+        "simplicity": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        478,
+                        26
+                    ],
+                    "y_train": [
+                        478
+                    ],
+                    "X_test": [
+                        85,
+                        26
+                    ],
+                    "y_test": [
+                        85
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -29.614458084106445,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.22522522509098053,
+                        1.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.8798609953685899,
+                "rmse": 0.07664935115020398
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 181,
+                    "max_leaves": 15,
+                    "min_samples_leaf": 7,
+                    "learning_rate": 0.49294004716600304,
+                    "log_max_bin": 6,
+                    "l2_regularization": 0.28389885427952466,
+                    "max_iter": 181
+                },
+                "best_estimator": "histgb"
+            },
+            "feature_importance": null,
+            "status": "success"
+        }
+    }
+}

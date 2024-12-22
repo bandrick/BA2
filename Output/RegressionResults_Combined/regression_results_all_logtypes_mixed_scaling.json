@@ -1,0 +1,687 @@
+{
+    "df_type": "all_logtypes",
+    "scaling_info": {
+        "count_features": [
+            "Number of Events",
+            "Number of Traces",
+            "Distinct Events",
+            "Distinct Traces",
+            "Distinct Start Events",
+            "Distinct End Events",
+            "Total Self-loops"
+        ],
+        "ratio_features": [
+            "Event Density",
+            "Relative Trace Coverage",
+            "Structure",
+            "Event Diversity",
+            "Event Repeatability",
+            "Transition Consistency",
+            "Event Co-occurrence Consistency"
+        ],
+        "length_features": [
+            "ATS",
+            "Average Trace Length",
+            "Max Trace Length",
+            "Min Trace Length",
+            "Level of Detail",
+            "Average Self-loop Size"
+        ],
+        "complexity_features": [
+            "Sequential Complexity",
+            "Rare Sequence Impact",
+            "Event Class Dispersion",
+            "Trace Variability"
+        ]
+    },
+    "results": {
+        "df_type": "all_logtypes",
+        "results": {
+            "average_trace_fitness": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.12045169532240074,
+                    "rmse": 0.21995009362669551
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 5,
+                        "max_features": 0.3738143902784832,
+                        "max_leaves": 35
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_7": 0.21179375309136264,
+                    "feature_9": 0.13465501389432397,
+                    "feature_5": 0.12907472966085226,
+                    "feature_14": 0.08035701639461251,
+                    "feature_19": 0.05438618642031963,
+                    "feature_24": 0.04984936658424576,
+                    "feature_3": 0.04474772363294162,
+                    "feature_6": 0.044098044234162186,
+                    "feature_8": 0.03453060350954934,
+                    "feature_4": 0.029644345581074406,
+                    "feature_17": 0.029503083457580292,
+                    "feature_2": 0.028170620215373022,
+                    "feature_18": 0.021230841093859903,
+                    "feature_25": 0.02028801240555352,
+                    "feature_0": 0.020075576966567855,
+                    "feature_15": 0.013978598051390661,
+                    "feature_1": 0.013705290201337986,
+                    "feature_13": 0.013385699460170698,
+                    "feature_23": 0.008320497378183217,
+                    "feature_20": 0.00645985280951647,
+                    "feature_10": 0.004785772707255685,
+                    "feature_21": 0.004450896820773242,
+                    "feature_12": 0.0018527329747134373,
+                    "feature_11": 0.0006557424542796414,
+                    "feature_16": 0.0,
+                    "feature_22": 0.0
+                },
+                "status": "success"
+            },
+            "fscore": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.20764364086231202,
+                    "rmse": 0.2559188825581992
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 14,
+                        "max_features": 0.7155428006949648,
+                        "max_leaves": 42
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_7": 0.23899495479207178,
+                    "feature_19": 0.13785935923389472,
+                    "feature_8": 0.11200150183185945,
+                    "feature_21": 0.0761427121535064,
+                    "feature_2": 0.06310582878792632,
+                    "feature_16": 0.052164855591147676,
+                    "feature_15": 0.035259209205598614,
+                    "feature_9": 0.03515081979819058,
+                    "feature_23": 0.03299923560315227,
+                    "feature_5": 0.02870843972176918,
+                    "feature_20": 0.024536374351873967,
+                    "feature_3": 0.023467350721484363,
+                    "feature_24": 0.022617358770832728,
+                    "feature_4": 0.020482999825206426,
+                    "feature_1": 0.019562067192749857,
+                    "feature_18": 0.015779530025011167,
+                    "feature_6": 0.013976044941691773,
+                    "feature_14": 0.011157002499325594,
+                    "feature_13": 0.009019567704991115,
+                    "feature_0": 0.008603002023197252,
+                    "feature_17": 0.005951937106283596,
+                    "feature_10": 0.005318924173423001,
+                    "feature_25": 0.0036166908136863432,
+                    "feature_22": 0.0014854664157117634,
+                    "feature_11": 0.001170184670938636,
+                    "feature_12": 0.000868582044475449
+                },
+                "status": "success"
+            },
+            "generalization": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.06064721569418907,
+                            1.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.3858391046524048,
+                    "rmse": 0.11956144124269485
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 116,
+                        "max_leaves": 4,
+                        "min_child_weight": 0.11856630736909665,
+                        "learning_rate": 0.11875124104393463,
+                        "subsample": 1.0,
+                        "colsample_bylevel": 0.8663023679745034,
+                        "colsample_bytree": 1.0,
+                        "reg_alpha": 0.039133899276170336,
+                        "reg_lambda": 0.001976111578606431
+                    },
+                    "best_estimator": "xgboost"
+                },
+                "feature_importance": {
+                    "feature_1": 0.40434715151786804,
+                    "feature_13": 0.2048400342464447,
+                    "feature_0": 0.09038964658975601,
+                    "feature_17": 0.08585204929113388,
+                    "feature_6": 0.0350068025290966,
+                    "feature_5": 0.030029481276869774,
+                    "feature_2": 0.026745431125164032,
+                    "feature_4": 0.01762676052749157,
+                    "feature_3": 0.014391051605343819,
+                    "feature_15": 0.012721768580377102,
+                    "feature_9": 0.010813184082508087,
+                    "feature_25": 0.009225131012499332,
+                    "feature_23": 0.007429078221321106,
+                    "feature_14": 0.007328687701374292,
+                    "feature_20": 0.006291912402957678,
+                    "feature_24": 0.0062248376198112965,
+                    "feature_16": 0.006078873295336962,
+                    "feature_8": 0.00586509658023715,
+                    "feature_7": 0.004880048800259829,
+                    "feature_12": 0.0046829115599393845,
+                    "feature_10": 0.0028712779749184847,
+                    "feature_21": 0.0028387680649757385,
+                    "feature_18": 0.002223968505859375,
+                    "feature_19": 0.001295936875976622,
+                    "feature_11": 0.0,
+                    "feature_22": 0.0
+                },
+                "status": "success"
+            },
+            "log_fitness": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.12275098010942831,
+                    "rmse": 0.22113106684993858
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 348,
+                        "max_features": 0.959256887324607,
+                        "max_leaves": 18
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_7": 0.24618077966090252,
+                    "feature_5": 0.2308947130969474,
+                    "feature_9": 0.14059246210760448,
+                    "feature_19": 0.04951569044746325,
+                    "feature_8": 0.04451765079360619,
+                    "feature_14": 0.04081357875658752,
+                    "feature_4": 0.038356914155818086,
+                    "feature_18": 0.03706492691362765,
+                    "feature_2": 0.025513295988281733,
+                    "feature_17": 0.0236698541892024,
+                    "feature_13": 0.018769155432051873,
+                    "feature_24": 0.01815574814303557,
+                    "feature_6": 0.01610631347154107,
+                    "feature_3": 0.012961981646391316,
+                    "feature_25": 0.007698328285065198,
+                    "feature_20": 0.007689860024162311,
+                    "feature_0": 0.007552142668425512,
+                    "feature_1": 0.007366327192668192,
+                    "feature_15": 0.006766367023490863,
+                    "feature_16": 0.006676097764362171,
+                    "feature_21": 0.005178118571459523,
+                    "feature_10": 0.0041084531355037686,
+                    "feature_23": 0.00208074437052345,
+                    "feature_12": 0.0016313869720054846,
+                    "feature_22": 7.202518375284346e-05,
+                    "feature_11": 6.708400551947374e-05
+                },
+                "status": "success"
+            },
+            "metricsAverageWeight": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.33468344807624817,
+                            0.9989752769470215
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.38809870100097954,
+                    "rmse": 0.08613027629386295
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 54,
+                        "max_features": 1.0,
+                        "max_leaves": 101
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_8": 0.1452894668967902,
+                    "feature_7": 0.1094536827184023,
+                    "feature_19": 0.1075995328637914,
+                    "feature_5": 0.10248665667886526,
+                    "feature_2": 0.09452873444046214,
+                    "feature_13": 0.07467616004329669,
+                    "feature_9": 0.07416534251322568,
+                    "feature_3": 0.0694697597662896,
+                    "feature_24": 0.05353019156860969,
+                    "feature_1": 0.043849863334224394,
+                    "feature_0": 0.023043756563412527,
+                    "feature_4": 0.01675417149621838,
+                    "feature_16": 0.015471149303206366,
+                    "feature_20": 0.009696644492142534,
+                    "feature_15": 0.008992433724685266,
+                    "feature_18": 0.007837436775033128,
+                    "feature_14": 0.007158678178630888,
+                    "feature_21": 0.007091693792839078,
+                    "feature_25": 0.006320920269005533,
+                    "feature_23": 0.005465182691008701,
+                    "feature_6": 0.004644165498334973,
+                    "feature_17": 0.00432397048882198,
+                    "feature_10": 0.003948447829907634,
+                    "feature_22": 0.00264907743362194,
+                    "feature_12": 0.001264417040870699,
+                    "feature_11": 0.0002884635983029654
+                },
+                "status": "success"
+            },
+            "perc_fit_traces": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.0,
+                            100.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.05338255520716695,
+                    "rmse": 39.033458565738584
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 8,
+                        "max_features": 0.5557662369248242,
+                        "max_leaves": 27
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_8": 0.1089124023116405,
+                    "feature_5": 0.10198304058506155,
+                    "feature_24": 0.0975219756317984,
+                    "feature_13": 0.09293646007442205,
+                    "feature_19": 0.07904183122867714,
+                    "feature_20": 0.07027491248070035,
+                    "feature_9": 0.07013266044710192,
+                    "feature_0": 0.06792420369879792,
+                    "feature_16": 0.04782496403236114,
+                    "feature_14": 0.040432529132039,
+                    "feature_25": 0.038694664562000915,
+                    "feature_2": 0.03774142191502976,
+                    "feature_15": 0.03066779652680439,
+                    "feature_3": 0.026192001511282766,
+                    "feature_18": 0.022196427690881225,
+                    "feature_6": 0.016357393167442398,
+                    "feature_4": 0.012215361705617215,
+                    "feature_17": 0.011944389513012538,
+                    "feature_12": 0.008622892549318015,
+                    "feature_1": 0.005507233891830099,
+                    "feature_23": 0.005491387032241814,
+                    "feature_7": 0.004179209923717078,
+                    "feature_10": 0.0020891321076205913,
+                    "feature_22": 0.0011157082806012152,
+                    "feature_11": 0.0,
+                    "feature_21": 0.0
+                },
+                "status": "success"
+            },
+            "percentage_of_fitting_traces": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.0,
+                            100.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.05352574646899233,
+                    "rmse": 39.03050623182673
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 8,
+                        "max_features": 0.5489398005319688,
+                        "max_leaves": 25
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_8": 0.10933743383067258,
+                    "feature_5": 0.10337611437412723,
+                    "feature_24": 0.09886082250890178,
+                    "feature_13": 0.09384602640177564,
+                    "feature_19": 0.08022146166788933,
+                    "feature_9": 0.07071727610636551,
+                    "feature_20": 0.07068499296132491,
+                    "feature_0": 0.06893243478855321,
+                    "feature_16": 0.047338661408130214,
+                    "feature_14": 0.039124486494246755,
+                    "feature_25": 0.039050198526445104,
+                    "feature_2": 0.038051264852048,
+                    "feature_15": 0.03108341925105333,
+                    "feature_3": 0.024615029706323198,
+                    "feature_18": 0.021872972034847154,
+                    "feature_6": 0.016579743082132125,
+                    "feature_17": 0.012113530459531487,
+                    "feature_4": 0.009911919022916589,
+                    "feature_12": 0.008683753921591998,
+                    "feature_23": 0.0055345721405705255,
+                    "feature_1": 0.004351317785400044,
+                    "feature_7": 0.0035934531987611698,
+                    "feature_10": 0.002119115476392118,
+                    "feature_11": 0.0,
+                    "feature_21": 0.0,
+                    "feature_22": 0.0
+                },
+                "status": "success"
+            },
+            "precision": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.0,
+                            1.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.20598183897731015,
+                    "rmse": 0.3014246582980501
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 61,
+                        "max_features": 1.0,
+                        "max_leaves": 37
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_19": 0.1572107603908254,
+                    "feature_7": 0.15070717118993118,
+                    "feature_8": 0.0924069156341216,
+                    "feature_9": 0.09015001710904626,
+                    "feature_20": 0.08177227547606707,
+                    "feature_21": 0.07782682715584933,
+                    "feature_23": 0.07519063079912837,
+                    "feature_4": 0.05886996740949261,
+                    "feature_2": 0.036459241245807725,
+                    "feature_16": 0.03582303801286536,
+                    "feature_15": 0.034004878350325826,
+                    "feature_3": 0.01939438227220206,
+                    "feature_13": 0.016654226325194987,
+                    "feature_24": 0.0130289506785219,
+                    "feature_1": 0.012573846694711316,
+                    "feature_6": 0.010355022318174697,
+                    "feature_14": 0.009693857780557487,
+                    "feature_18": 0.00810536372722562,
+                    "feature_5": 0.006241689278570738,
+                    "feature_17": 0.005302361879855395,
+                    "feature_0": 0.0029703040120230796,
+                    "feature_25": 0.0023776434559312407,
+                    "feature_12": 0.000924377225524119,
+                    "feature_22": 0.0009110582172144249,
+                    "feature_10": 0.0007506492761670797,
+                    "feature_11": 0.00029454408466503745
+                },
+                "status": "success"
+            },
+            "simplicity": {
+                "data_info": {
+                    "shapes": {
+                        "X_train": [
+                            16079,
+                            26
+                        ],
+                        "y_train": [
+                            16079
+                        ],
+                        "X_test": [
+                            2838,
+                            26
+                        ],
+                        "y_test": [
+                            2838
+                        ]
+                    },
+                    "statistics": {
+                        "X_train_range": [
+                            -12.488908767700195,
+                            20135.0
+                        ],
+                        "y_train_range": [
+                            0.012287493795156479,
+                            1.0
+                        ]
+                    }
+                },
+                "model_performance": {
+                    "r2": 0.24721776146471874,
+                    "rmse": 0.2197603201417166
+                },
+                "model_info": {
+                    "best_config": {
+                        "n_estimators": 70,
+                        "max_features": 0.8692537523154901,
+                        "max_leaves": 55
+                    },
+                    "best_estimator": "extra_tree"
+                },
+                "feature_importance": {
+                    "feature_2": 0.1514706997125269,
+                    "feature_9": 0.1415362500453778,
+                    "feature_7": 0.13601092391166966,
+                    "feature_6": 0.10170508695138077,
+                    "feature_8": 0.0843486435737316,
+                    "feature_24": 0.04655074891876233,
+                    "feature_3": 0.04469221425639051,
+                    "feature_19": 0.040089345659771666,
+                    "feature_5": 0.039259324965161206,
+                    "feature_25": 0.03439575998554169,
+                    "feature_0": 0.03129634252351313,
+                    "feature_13": 0.029565819292381678,
+                    "feature_1": 0.02401831178391075,
+                    "feature_18": 0.01454010204966005,
+                    "feature_14": 0.014118689607717238,
+                    "feature_17": 0.011759200364670678,
+                    "feature_4": 0.011648551408010417,
+                    "feature_15": 0.010100013469868368,
+                    "feature_20": 0.00985091989692469,
+                    "feature_23": 0.006304366222079204,
+                    "feature_16": 0.006164976897679898,
+                    "feature_21": 0.0053550133219699555,
+                    "feature_10": 0.0017199216087074554,
+                    "feature_12": 0.0016931229356273152,
+                    "feature_22": 0.0010730993478393883,
+                    "feature_11": 0.0007325512891256401
+                },
+                "status": "success"
+            }
+        }
+    }
+}

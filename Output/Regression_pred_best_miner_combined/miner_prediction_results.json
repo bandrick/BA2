@@ -1,0 +1,877 @@
+{
+    "perc_fit_traces": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        3.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.31021904945373535,
+                "rmse": 0.4642716944217682
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 176,
+                    "max_leaves": 191,
+                    "min_child_weight": 1.3887855390344086,
+                    "learning_rate": 0.013809735280568313,
+                    "subsample": 0.92287464914585,
+                    "colsample_bylevel": 0.7306345563943595,
+                    "colsample_bytree": 1.0,
+                    "reg_alpha": 0.02496145009701854,
+                    "reg_lambda": 0.43449479564843224
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_24": 0.05294918641448021,
+                "feature_9": 0.05183209851384163,
+                "feature_18": 0.05164864659309387,
+                "feature_16": 0.044559624046087265,
+                "feature_11": 0.04391774907708168,
+                "feature_2": 0.04285171255469322,
+                "feature_17": 0.042805977165699005,
+                "feature_4": 0.04186992719769478,
+                "feature_10": 0.040437038987874985,
+                "feature_22": 0.040426868945360184,
+                "feature_14": 0.03695818409323692,
+                "feature_13": 0.036734696477651596,
+                "feature_21": 0.03616112098097801,
+                "feature_5": 0.035826947540044785,
+                "feature_1": 0.03544735535979271,
+                "feature_20": 0.0349208228290081,
+                "feature_3": 0.03460671007633209,
+                "feature_23": 0.03453522175550461,
+                "feature_25": 0.034398552030324936,
+                "feature_8": 0.034010451287031174,
+                "feature_7": 0.033892519772052765,
+                "feature_12": 0.03363748639822006,
+                "feature_15": 0.03208102285861969,
+                "feature_0": 0.031226662918925285,
+                "feature_19": 0.031223401427268982,
+                "feature_6": 0.031040009111166
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 50,
+            "Alpha Miner - Plus": 353,
+            "Heuristic Miner - Classic": 2392,
+            "Heuristic Miner - Plus": 466
+        }
+    },
+    "average_trace_fitness": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        3.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.3698287606239319,
+                "rmse": 0.3067377805709839
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 515,
+                    "max_leaves": 570,
+                    "min_child_weight": 0.6156712128584815,
+                    "learning_rate": 0.008264459660922497,
+                    "subsample": 1.0,
+                    "colsample_bylevel": 0.8443560244485684,
+                    "colsample_bytree": 0.35497919808833794,
+                    "reg_alpha": 0.020305528530920908,
+                    "reg_lambda": 0.05432099947544398
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_18": 0.05442909151315689,
+                "feature_8": 0.049126919358968735,
+                "feature_4": 0.0490838848054409,
+                "feature_21": 0.04875597357749939,
+                "feature_22": 0.04647194221615791,
+                "feature_25": 0.042735472321510315,
+                "feature_16": 0.04194122552871704,
+                "feature_24": 0.04154454544186592,
+                "feature_2": 0.041515812277793884,
+                "feature_1": 0.0398162379860878,
+                "feature_15": 0.038539253175258636,
+                "feature_14": 0.037283554673194885,
+                "feature_5": 0.037259671837091446,
+                "feature_6": 0.036783862859010696,
+                "feature_0": 0.03611503913998604,
+                "feature_20": 0.03589587286114693,
+                "feature_10": 0.035877399146556854,
+                "feature_9": 0.035761114209890366,
+                "feature_3": 0.03494624048471451,
+                "feature_13": 0.03451954573392868,
+                "feature_19": 0.03330012783408165,
+                "feature_11": 0.03300617262721062,
+                "feature_7": 0.032787371426820755,
+                "feature_17": 0.03189430013298988,
+                "feature_23": 0.028262201696634293,
+                "feature_12": 0.022347167134284973
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 19,
+            "Alpha Miner - Plus": 67,
+            "Heuristic Miner - Classic": 2801,
+            "Heuristic Miner - Plus": 374
+        }
+    },
+    "log_fitness": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        3.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.45939022302627563,
+                "rmse": 0.2760036885738373
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 1017,
+                    "max_leaves": 312,
+                    "min_child_weight": 0.18282240342233227,
+                    "learning_rate": 0.019435551261767086,
+                    "subsample": 0.512718149117922,
+                    "colsample_bylevel": 0.8636449063953537,
+                    "colsample_bytree": 0.7272875961640913,
+                    "reg_alpha": 0.001294412561960846,
+                    "reg_lambda": 4.791695997402165
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_21": 0.06554810702800751,
+                "feature_24": 0.056219302117824554,
+                "feature_16": 0.0546882264316082,
+                "feature_8": 0.050127919763326645,
+                "feature_14": 0.04740438982844353,
+                "feature_15": 0.046086352318525314,
+                "feature_7": 0.044765643775463104,
+                "feature_13": 0.04402998462319374,
+                "feature_9": 0.04184749722480774,
+                "feature_17": 0.040576908737421036,
+                "feature_18": 0.039590176194906235,
+                "feature_1": 0.03754955157637596,
+                "feature_20": 0.03680448234081268,
+                "feature_3": 0.036022815853357315,
+                "feature_2": 0.03589008376002312,
+                "feature_25": 0.034726034849882126,
+                "feature_22": 0.033748503774404526,
+                "feature_6": 0.03332031890749931,
+                "feature_23": 0.032336778938770294,
+                "feature_5": 0.0285699013620615,
+                "feature_0": 0.027742750942707062,
+                "feature_4": 0.027288123965263367,
+                "feature_11": 0.026764610782265663,
+                "feature_10": 0.02672620117664337,
+                "feature_12": 0.02643335424363613,
+                "feature_19": 0.025191916152834892
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 18,
+            "Alpha Miner - Plus": 59,
+            "Heuristic Miner - Classic": 2829,
+            "Heuristic Miner - Plus": 355
+        }
+    },
+    "percentage_of_fitting_traces": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        3.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.19650003038387842,
+                "rmse": 0.5010828806161021
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 44,
+                    "max_leaves": 36,
+                    "min_samples_leaf": 3,
+                    "learning_rate": 0.3547293103119841,
+                    "log_max_bin": 7,
+                    "l2_regularization": 0.46302113823078794,
+                    "max_iter": 44
+                },
+                "best_estimator": "histgb"
+            },
+            "feature_importance": null,
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 50,
+            "Alpha Miner - Plus": 353,
+            "Heuristic Miner - Classic": 2392,
+            "Heuristic Miner - Plus": 466
+        }
+    },
+    "precision": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        4.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.6231447458267212,
+                "rmse": 0.44153377413749695
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 171,
+                    "max_leaves": 281,
+                    "min_child_weight": 1.3211338407043574,
+                    "learning_rate": 0.154642483774717,
+                    "subsample": 0.9737778078172284,
+                    "colsample_bylevel": 1.0,
+                    "colsample_bytree": 0.35680208832293564,
+                    "reg_alpha": 0.0015388737549457327,
+                    "reg_lambda": 0.8987595552302184
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_24": 0.11578710377216339,
+                "feature_5": 0.0810641199350357,
+                "feature_2": 0.08030442148447037,
+                "feature_15": 0.06699453294277191,
+                "feature_19": 0.06517982482910156,
+                "feature_8": 0.04979344457387924,
+                "feature_1": 0.04534385725855827,
+                "feature_9": 0.0445353165268898,
+                "feature_18": 0.043991170823574066,
+                "feature_25": 0.04051465913653374,
+                "feature_14": 0.040064819157123566,
+                "feature_3": 0.039635177701711655,
+                "feature_11": 0.036934055387973785,
+                "feature_7": 0.03650049865245819,
+                "feature_0": 0.031999412924051285,
+                "feature_22": 0.031047223135828972,
+                "feature_21": 0.026706883683800697,
+                "feature_12": 0.02486567571759224,
+                "feature_16": 0.024288011714816093,
+                "feature_6": 0.0190189890563488,
+                "feature_13": 0.01718299649655819,
+                "feature_17": 0.014308749698102474,
+                "feature_10": 0.013820239342749119,
+                "feature_23": 0.004939858336001635,
+                "feature_20": 0.003501889295876026,
+                "feature_4": 0.0016770679503679276
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3,
+            "ILP Miner": 4
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 121,
+            "Alpha Miner - Plus": 43,
+            "Heuristic Miner - Classic": 1254,
+            "Heuristic Miner - Plus": 1805,
+            "ILP Miner": 38
+        }
+    },
+    "generalization": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        4.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.7280199527740479,
+                "rmse": 0.6786215305328369
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 788,
+                    "max_leaves": 103,
+                    "min_child_weight": 2.7232227673548666,
+                    "learning_rate": 0.033410298039585014,
+                    "subsample": 0.5981435935147716,
+                    "colsample_bylevel": 1.0,
+                    "colsample_bytree": 0.6711699625677177,
+                    "reg_alpha": 0.0009765625,
+                    "reg_lambda": 0.1992567653890645
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_20": 0.10376483201980591,
+                "feature_5": 0.09059024602174759,
+                "feature_7": 0.06822148710489273,
+                "feature_15": 0.06688385456800461,
+                "feature_2": 0.06216384097933769,
+                "feature_0": 0.06086156517267227,
+                "feature_9": 0.04357355833053589,
+                "feature_17": 0.03985801339149475,
+                "feature_18": 0.033809248358011246,
+                "feature_8": 0.032841604202985764,
+                "feature_16": 0.03121260181069374,
+                "feature_22": 0.02878451906144619,
+                "feature_1": 0.028085581958293915,
+                "feature_14": 0.027814485132694244,
+                "feature_4": 0.027456190437078476,
+                "feature_3": 0.025942806154489517,
+                "feature_23": 0.025476420298218727,
+                "feature_13": 0.025131648406386375,
+                "feature_6": 0.024292616173624992,
+                "feature_21": 0.02405479922890663,
+                "feature_19": 0.023216474801301956,
+                "feature_12": 0.02249191515147686,
+                "feature_10": 0.022488947957754135,
+                "feature_25": 0.02222980000078678,
+                "feature_24": 0.02104788087308407,
+                "feature_11": 0.0177049208432436
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3,
+            "ILP Miner": 4
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 288,
+            "Alpha Miner - Plus": 186,
+            "Heuristic Miner - Classic": 75,
+            "Heuristic Miner - Plus": 64,
+            "ILP Miner": 2648
+        }
+    },
+    "simplicity": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        17583.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        4.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.45634498309673843,
+                "rmse": 0.7053251745245835
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 58,
+                    "max_features": 0.7536793071072712,
+                    "max_leaves": 1347
+                },
+                "best_estimator": "rf"
+            },
+            "feature_importance": {
+                "feature_9": 0.20594052086566042,
+                "feature_6": 0.11630512500022124,
+                "feature_7": 0.06728488112724712,
+                "feature_13": 0.05631085875982412,
+                "feature_2": 0.04690870489190431,
+                "feature_25": 0.04682447502257741,
+                "feature_23": 0.036914123335633944,
+                "feature_0": 0.036177171193431376,
+                "feature_3": 0.03331732269173931,
+                "feature_18": 0.03289051182087594,
+                "feature_14": 0.031558077131809685,
+                "feature_5": 0.031477280420398185,
+                "feature_19": 0.03134950234569089,
+                "feature_8": 0.031169568562824018,
+                "feature_21": 0.029105814830189737,
+                "feature_1": 0.027293735591527236,
+                "feature_20": 0.02521300870800347,
+                "feature_16": 0.023190383827260474,
+                "feature_15": 0.022768986239186027,
+                "feature_24": 0.021718609478861717,
+                "feature_17": 0.01497083379896857,
+                "feature_4": 0.0148396542478747,
+                "feature_12": 0.005635889721486185,
+                "feature_10": 0.004392354811840951,
+                "feature_22": 0.0032771758074473,
+                "feature_11": 0.00316542976751571
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3,
+            "ILP Miner": 4
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 642,
+            "Alpha Miner - Plus": 895,
+            "Heuristic Miner - Classic": 1346,
+            "Heuristic Miner - Plus": 346,
+            "ILP Miner": 32
+        }
+    },
+    "metricsAverageWeight": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        4.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.4278601552622655,
+                "rmse": 0.39332711157222144
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 25,
+                    "max_features": 1.0,
+                    "max_leaves": 278
+                },
+                "best_estimator": "extra_tree"
+            },
+            "feature_importance": {
+                "feature_9": 0.12425213972428478,
+                "feature_7": 0.0802662836208075,
+                "feature_2": 0.0671247179545734,
+                "feature_5": 0.06565660546340217,
+                "feature_3": 0.0569753437180264,
+                "feature_4": 0.05396168593799266,
+                "feature_19": 0.050616521952153014,
+                "feature_16": 0.04648900181146914,
+                "feature_20": 0.045078059556389494,
+                "feature_17": 0.03483534730601223,
+                "feature_18": 0.033026396927243004,
+                "feature_13": 0.032882004662086614,
+                "feature_6": 0.03263057869523493,
+                "feature_21": 0.03216290513092059,
+                "feature_8": 0.03141215165441912,
+                "feature_23": 0.03096044633056223,
+                "feature_25": 0.029611781476553283,
+                "feature_24": 0.02750715182770497,
+                "feature_15": 0.02688830855620567,
+                "feature_14": 0.026805623933096406,
+                "feature_0": 0.02003969733360876,
+                "feature_1": 0.018364471656793738,
+                "feature_11": 0.010881293005604248,
+                "feature_10": 0.010605282755682668,
+                "feature_12": 0.007287439732609471,
+                "feature_22": 0.003678759276563441
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3,
+            "ILP Miner": 4
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 26,
+            "Alpha Miner - Plus": 170,
+            "Heuristic Miner - Classic": 2532,
+            "Heuristic Miner - Plus": 500,
+            "ILP Miner": 33
+        }
+    },
+    "fscore": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        4.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.48107701539993286,
+                "rmse": 0.3880240321159363
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 405,
+                    "max_leaves": 140,
+                    "min_child_weight": 2.042785038596599,
+                    "learning_rate": 0.0645029791044114,
+                    "subsample": 0.7456225315092648,
+                    "colsample_bylevel": 1.0,
+                    "colsample_bytree": 0.8930059381040142,
+                    "reg_alpha": 0.039432948562680696,
+                    "reg_lambda": 0.002062490104416267
+                },
+                "best_estimator": "xgboost"
+            },
+            "feature_importance": {
+                "feature_3": 0.06930477917194366,
+                "feature_5": 0.0580110177397728,
+                "feature_24": 0.053948160260915756,
+                "feature_19": 0.05382401868700981,
+                "feature_18": 0.05150618031620979,
+                "feature_11": 0.05005902796983719,
+                "feature_2": 0.04853864386677742,
+                "feature_15": 0.04683589190244675,
+                "feature_14": 0.043863870203495026,
+                "feature_4": 0.03927066922187805,
+                "feature_8": 0.039172884076833725,
+                "feature_9": 0.03764189034700394,
+                "feature_0": 0.03561500459909439,
+                "feature_1": 0.03484455123543739,
+                "feature_17": 0.034699175506830215,
+                "feature_13": 0.03159133717417717,
+                "feature_20": 0.031239943578839302,
+                "feature_7": 0.030762193724513054,
+                "feature_16": 0.0304951760917902,
+                "feature_6": 0.029943758621811867,
+                "feature_10": 0.027709253132343292,
+                "feature_21": 0.027368905022740364,
+                "feature_12": 0.02544524148106575,
+                "feature_23": 0.02423734776675701,
+                "feature_25": 0.022374162450432777,
+                "feature_22": 0.021696873009204865
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3,
+            "ILP Miner": 4
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 9,
+            "Alpha Miner - Plus": 23,
+            "Heuristic Miner - Classic": 1905,
+            "Heuristic Miner - Plus": 1284,
+            "ILP Miner": 40
+        }
+    },
+    "score": {
+        "results": {
+            "data_info": {
+                "shapes": {
+                    "X_train": [
+                        3261,
+                        26
+                    ],
+                    "y_train": [
+                        3261
+                    ],
+                    "X_test": [
+                        576,
+                        26
+                    ],
+                    "y_test": [
+                        576
+                    ]
+                },
+                "statistics": {
+                    "X_train_range": [
+                        -12.307453155517578,
+                        20135.0
+                    ],
+                    "y_train_range": [
+                        0.0,
+                        4.0
+                    ]
+                }
+            },
+            "model_performance": {
+                "r2": 0.4251935068708381,
+                "rmse": 0.39424266203817865
+            },
+            "model_info": {
+                "best_config": {
+                    "n_estimators": 25,
+                    "max_features": 1.0,
+                    "max_leaves": 237
+                },
+                "best_estimator": "extra_tree"
+            },
+            "feature_importance": {
+                "feature_9": 0.12639195089293,
+                "feature_7": 0.08197217047068618,
+                "feature_2": 0.0675981578276443,
+                "feature_5": 0.06702694068714359,
+                "feature_3": 0.058535871321526885,
+                "feature_4": 0.05485819349790578,
+                "feature_19": 0.050126215838539045,
+                "feature_16": 0.04693276872339398,
+                "feature_20": 0.04579932378321791,
+                "feature_17": 0.03404412752053791,
+                "feature_6": 0.03286825863899418,
+                "feature_18": 0.032297214163151,
+                "feature_13": 0.032261307087340194,
+                "feature_21": 0.031328410049554244,
+                "feature_8": 0.03055781335047524,
+                "feature_23": 0.029132660046684095,
+                "feature_25": 0.02848384844499409,
+                "feature_24": 0.02676261280284184,
+                "feature_15": 0.026499766968346463,
+                "feature_14": 0.026111432084689003,
+                "feature_0": 0.01923528341065701,
+                "feature_1": 0.01861714198003806,
+                "feature_10": 0.010995552636631194,
+                "feature_11": 0.010787124894680096,
+                "feature_12": 0.007072724574929145,
+                "feature_22": 0.0037031283024683667
+            },
+            "status": "success"
+        },
+        "miner_mapping": {
+            "Alpha Miner - Classic": 0,
+            "Alpha Miner - Plus": 1,
+            "Heuristic Miner - Classic": 2,
+            "Heuristic Miner - Plus": 3,
+            "ILP Miner": 4
+        },
+        "class_distribution": {
+            "Alpha Miner - Classic": 26,
+            "Alpha Miner - Plus": 170,
+            "Heuristic Miner - Classic": 2532,
+            "Heuristic Miner - Plus": 500,
+            "ILP Miner": 33
+        }
+    }
+}
